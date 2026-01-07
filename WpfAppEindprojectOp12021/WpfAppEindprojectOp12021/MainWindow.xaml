@@ -1,0 +1,90 @@
+﻿<Window x:Class="WpfAppEindprojectOp12021.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppEindprojectOp12021"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="Black">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="20" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="20" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="20" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="20" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="1" Grid.Column="1" Background="Purple" HorizontalAlignment="Stretch">
+            <TextBlock x:Name="tbCounter" Background="DarkBlue" Foreground="White" Text="0" TextAlignment="Center"/>
+            <Button Background="Black" Foreground="White" Margin="0,25,0,0" Content="Count" Click="Button_Click" />
+        </StackPanel>
+
+        <StackPanel Background="LightGray" Orientation="Vertical" HorizontalAlignment="Stretch" Grid.Row="3" Grid.Column="3" VerticalAlignment="Stretch">
+            <TextBox x:Name="tbAnimal" Background="Orange" TextAlignment="Center" Text="0"/>
+            <ComboBox x:Name="cmbAnimals" Margin="0,25,0,0" >
+                <ComboBoxItem x:Name="element1" Content="Paard"/>
+                <ComboBoxItem x:Name="element2" Content="Ezel"/>
+                <ComboBoxItem x:Name="element3" Content="Giraf"/>
+                <ComboBoxItem x:Name="element4" Content="Aap"/>
+                <ComboBoxItem x:Name="element5" Content="Leeuw"/>
+            </ComboBox>
+            <Button Background="blue" Foreground="white" Content="Go" Margin="0,25,0,0" Click="GoTwo_Click_1" />
+        </StackPanel>
+        <Image Grid.Row="5" Grid.Column="5" Source="/Assets/horizon.jpg"/>
+
+        <StackPanel Background="Yellow" Orientation="Vertical" Grid.Row="1" Grid.Column="3">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Begingetal"/>
+                <TextBox x:Name="begingetal" Margin="20,0,0,0" Background="LightGray" Foreground="black" TextAlignment="Center" Text="0"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Macht"/>
+                <TextBox x:Name="tbPower" Background="LightGray" Margin="20,0,0,0" TextAlignment="Center" Foreground="black" Text="0"/>
+            </StackPanel>
+            <TextBlock x:Name="tbReeks" Background="LightGray" Margin="0,10,0,0" TextAlignment="Center" Foreground="black" Text="0"/>
+            <Button  Background="blue" Foreground="white" Content="Go" Margin="0,15,0,0" Click="GoOne_click" />
+        </StackPanel>
+
+        <Grid x:Name="gridColor" Grid.Row="1" Grid.Column="5" Background="White">
+
+        </Grid >
+        <StackPanel Grid.Row="3" Grid.Column="5">
+            <Button x:Name="btOne" Background="DarkGray" Content="Button1" Click="btOne_Click"/>
+            <Button x:Name="btTwo" Background="DarkGray" Margin="0,10,0,0" Content="Button2" Click="btTwo_Click"/>
+            <Button x:Name="btThree" Background="DarkGray" Margin="0,10,0,0" Content="Button3" Click="btThree_Click"/>
+            <Button x:Name="btFour" Background="DarkGray" Margin="0,10,0,0" Content="Button4" Click="btFour_Click"/>
+        </StackPanel>
+
+
+        <Grid Background="Orange" Grid.Row="3" Grid.Column="1">
+            <!-- Oranje vak voor keus naar eigen inzicht, plaats in dit grid je controls -->
+
+        </Grid>
+
+
+        <Grid Background="blue" Grid.Row="5" Grid.Column="1">
+            <!-- Blauw vak voor keus naar eigen inzicht, plaats in dit grid je controls -->
+            
+        </Grid>
+
+
+        <Grid Background="Pink" Grid.Row="5" Grid.Column="3">
+            <!-- Roze vak voor keus naar eigen inzicht, plaats in dit grid je controls -->
+            
+        </Grid>
+
+
+    </Grid>
+</Window>

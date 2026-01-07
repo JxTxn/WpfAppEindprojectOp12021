@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\juste.JSTN\\Downloads\\WpfAppEindprojectOp12021\\WpfAppEindprojectOp12021\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F6AAB47E-2CF4-44A7-9F31-2C261EA8632D}|WpfAppEindprojectOp12021\\WpfAppEindprojectOp12021.csproj|c:\\users\\juste.jstn\\downloads\\wpfappeindprojectop12021\\wpfappeindprojectop12021\\wpfappeindprojectop12021\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6AAB47E-2CF4-44A7-9F31-2C261EA8632D}|WpfAppEindprojectOp12021\\WpfAppEindprojectOp12021.csproj|solutionrelative:wpfappeindprojectop12021\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6AAB47E-2CF4-44A7-9F31-2C261EA8632D}|WpfAppEindprojectOp12021\\WpfAppEindprojectOp12021.csproj|C:\\Users\\juste.JSTN\\Downloads\\WpfAppEindprojectOp12021\\WpfAppEindprojectOp12021\\wpfappeindprojectop12021\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F6AAB47E-2CF4-44A7-9F31-2C261EA8632D}|WpfAppEindprojectOp12021\\WpfAppEindprojectOp12021.csproj|solutionrelative:wpfappeindprojectop12021\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\juste.JSTN\\Downloads\\WpfAppEindprojectOp12021\\WpfAppEindprojectOp12021\\WpfAppEindprojectOp12021\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfAppEindprojectOp12021\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\juste.JSTN\\Downloads\\WpfAppEindprojectOp12021\\WpfAppEindprojectOp12021\\WpfAppEindprojectOp12021\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfAppEindprojectOp12021\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAiwMcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T18:42:50.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\juste.JSTN\\Downloads\\WpfAppEindprojectOp12021\\WpfAppEindprojectOp12021\\WpfAppEindprojectOp12021\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfAppEindprojectOp12021\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\juste.JSTN\\Downloads\\WpfAppEindprojectOp12021\\WpfAppEindprojectOp12021\\WpfAppEindprojectOp12021\\MainWindow.xaml",
+              "RelativeToolTip": "WpfAppEindprojectOp12021\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-30T18:42:36.839Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
